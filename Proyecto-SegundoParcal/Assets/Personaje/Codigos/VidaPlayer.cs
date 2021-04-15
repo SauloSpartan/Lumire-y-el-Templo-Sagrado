@@ -29,7 +29,7 @@ public class VidaPlayer : MonoBehaviour
         if (vida <= 0)
         {
             anim.enabled = false;
-            
+            Time.timeScale = 0;
         }
     }
 }
