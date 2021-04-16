@@ -12,6 +12,9 @@ ModelImporter:
   - first:
       74: -3780516532778130023
     second: mixamo.com (1)
+  - first:
+      74: 1827226128182048838
+    second: Take 001
   externalObjects: {}
   materials:
     materialImportMode: 1
