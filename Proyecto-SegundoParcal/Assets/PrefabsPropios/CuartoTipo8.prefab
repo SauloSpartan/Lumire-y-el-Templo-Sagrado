@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1059206405302616593}
   - component: {fileID: 1877783301196480327}
   - component: {fileID: 4515081978316208109}
+  - component: {fileID: 3721051006479778925}
   m_Layer: 0
   m_Name: ParedPasillo (1)
   m_TagString: Untagged
@@ -79,6 +80,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &3721051006479778925
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3230689846532708833}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.269392, y: 5.302386, z: 0.41845572}
+  m_Center: {x: -2.469616, y: 2.513326, z: 0.06034916}
 --- !u!1 &3788184538692786508
 GameObject:
   m_ObjectHideFlags: 0
@@ -90,6 +104,7 @@ GameObject:
   - component: {fileID: 1225168882983868006}
   - component: {fileID: 4217564237708398897}
   - component: {fileID: 752103467701373840}
+  - component: {fileID: 2221577062981851994}
   m_Layer: 0
   m_Name: PisoCuarto (1)
   m_TagString: Untagged
@@ -158,6 +173,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &2221577062981851994
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3788184538692786508}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.000002, y: 0.16728602, z: 4.999999}
+  m_Center: {x: -2.500001, y: 0.08059252, z: 2.4999995}
 --- !u!1 &5363078777260320374
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,6 +197,7 @@ GameObject:
   - component: {fileID: 6161083889300874533}
   - component: {fileID: 3186340273590505087}
   - component: {fileID: 2106197458185796066}
+  - component: {fileID: 7899337083253603080}
   m_Layer: 0
   m_Name: ParedCorta (1)
   m_TagString: Untagged
@@ -237,6 +266,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &7899337083253603080
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5363078777260320374}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.6720276, y: 5.1022196, z: 0.43571663}
+  m_Center: {x: -1.218605, y: 2.5511098, z: 0.06472683}
 --- !u!1 &9101649491330110108
 GameObject:
   m_ObjectHideFlags: 0
@@ -248,6 +290,7 @@ GameObject:
   - component: {fileID: 7652192374328289334}
   - component: {fileID: 7127001073536996100}
   - component: {fileID: 4335593132060265104}
+  - component: {fileID: 4276994181878354659}
   m_Layer: 0
   m_Name: TechoCuarto (1)
   m_TagString: Untagged
@@ -316,6 +359,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &4276994181878354659
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9101649491330110108}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 0.14981937, z: 5}
+  m_Center: {x: -2.5, y: -0.074906826, z: 2.5}
 --- !u!1 &9195179958415946227
 GameObject:
   m_ObjectHideFlags: 0

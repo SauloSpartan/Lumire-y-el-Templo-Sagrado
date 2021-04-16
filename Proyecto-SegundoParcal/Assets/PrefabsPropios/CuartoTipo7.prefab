@@ -90,6 +90,7 @@ GameObject:
   - component: {fileID: 5471393881660701278}
   - component: {fileID: 3434247664088945462}
   - component: {fileID: 2429287574291791119}
+  - component: {fileID: 4605458212826195716}
   m_Layer: 0
   m_Name: ParedPasillo (1)
   m_TagString: Untagged
@@ -158,6 +159,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &4605458212826195716
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4379390946089870238}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.269392, y: 5.302386, z: 0.41845572}
+  m_Center: {x: -2.469616, y: 2.513326, z: 0.06034916}
 --- !u!1 &4621604826703968501
 GameObject:
   m_ObjectHideFlags: 0
@@ -204,6 +218,7 @@ GameObject:
   - component: {fileID: 857219474298549799}
   - component: {fileID: 7134637067876898104}
   - component: {fileID: 6936300242102816752}
+  - component: {fileID: 423432238526345438}
   m_Layer: 0
   m_Name: ParedCorta (1)
   m_TagString: Untagged
@@ -272,6 +287,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &423432238526345438
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7070267454001756316}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.6720276, y: 5.1022196, z: 0.43571663}
+  m_Center: {x: -1.218605, y: 2.5511098, z: 0.06472683}
 --- !u!1 &8362150808904430015
 GameObject:
   m_ObjectHideFlags: 0
@@ -283,6 +311,7 @@ GameObject:
   - component: {fileID: 9148447589202480581}
   - component: {fileID: 3942127984229465187}
   - component: {fileID: 4593355149904928123}
+  - component: {fileID: 3723865129506472083}
   m_Layer: 0
   m_Name: PisoCuarto (1)
   m_TagString: Untagged
@@ -351,6 +380,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &3723865129506472083
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8362150808904430015}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.000002, y: 0.16728602, z: 4.999999}
+  m_Center: {x: -2.500001, y: 0.08059252, z: 2.4999995}
 --- !u!1001 &4643530097867653312
 PrefabInstance:
   m_ObjectHideFlags: 0
