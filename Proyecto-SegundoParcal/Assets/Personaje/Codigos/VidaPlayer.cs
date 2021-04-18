@@ -11,6 +11,8 @@ public class VidaPlayer : MonoBehaviour
 
     public Image barraDeVida;
 
+    public GameObject PanelGameOver;
+
     private Animator anim;
 
     
@@ -21,6 +23,7 @@ public class VidaPlayer : MonoBehaviour
     void Start ()
     {
         anim = GetComponent<Animator>();
+        
     }
 
 
@@ -34,7 +37,17 @@ public class VidaPlayer : MonoBehaviour
         if (vida <= 0)
         {
             anim.enabled = false;
+            StartCoroutine(Over());
             
         }
     }
+    IEnumerator Over()
+    {
+        yield return new WaitForSeconds(3);
+        PanelGameOver.SetActive(true);
+    }
+
+
+
+
 }
