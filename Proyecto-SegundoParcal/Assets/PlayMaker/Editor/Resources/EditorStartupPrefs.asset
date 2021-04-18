@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   welcomeScreenVersion: '1.9.1 '
   playmakerVersion: 
-  showWelcomeScreen: 1
+  showWelcomeScreen: 0
   showUpgradeGuide: 0
-  lastAutoUpdateSignature: 2019.4.19f1__C:/Users/Windows/Documents/GitHub/Proyecto-Parcial2/Proyecto-SegundoParcal/Assets__0.0.0.0
+  lastAutoUpdateSignature: 2019.4.19f1__D:/Escritorio/FyS dungeon/Proyecto-Parcial2/Proyecto-SegundoParcal/Assets__0.0.0.0
   useLegacyNetworking: 0
