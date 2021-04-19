@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 415820}
   - component: {fileID: 3301764}
   - component: {fileID: 2321326}
+  - component: {fileID: 7760284782902578983}
   m_Layer: 0
   m_Name: SM_Prop_Candle_Chandelier_01
   m_TagString: Untagged
@@ -79,3 +80,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7760284782902578983
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175572}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: f48d7f1ef28ae2344975a0e2f8aec071, type: 3}
