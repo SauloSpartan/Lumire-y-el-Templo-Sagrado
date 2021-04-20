@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 465442}
   - component: {fileID: 3381188}
   - component: {fileID: 2385776}
+  - component: {fileID: 2316120334089803688}
   m_Layer: 0
   m_Name: SM_Prop_Table_Round_Broken_01
   m_TagString: Untagged
@@ -79,3 +80,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2316120334089803688
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123038}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 98dc3b2929c28a44bbc52323d84cca4b, type: 3}

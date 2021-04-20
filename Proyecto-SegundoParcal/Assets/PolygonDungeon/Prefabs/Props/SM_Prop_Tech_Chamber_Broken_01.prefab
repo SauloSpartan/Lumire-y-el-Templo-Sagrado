@@ -90,6 +90,7 @@ GameObject:
   - component: {fileID: 433062}
   - component: {fileID: 3364440}
   - component: {fileID: 2385350}
+  - component: {fileID: 6831407208394766423}
   m_Layer: 0
   m_Name: SM_Prop_Tech_Chamber_Broken_01
   m_TagString: Untagged
@@ -159,3 +160,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &6831407208394766423
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193678}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: a1097d21de3243949a2bd9fe134a82fb, type: 3}
