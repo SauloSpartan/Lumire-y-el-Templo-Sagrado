@@ -1847,7 +1847,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: Mapa
+          value: Cinematica
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []

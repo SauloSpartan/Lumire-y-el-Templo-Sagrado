@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   welcomeScreenVersion: '1.9.1 '
   playmakerVersion: 
-  showWelcomeScreen: 0
+  showWelcomeScreen: 1
   showUpgradeGuide: 0
-  lastAutoUpdateSignature: 2019.4.19f1__D:/Escritorio/FyS dungeon/Proyecto-Parcial2/Proyecto-SegundoParcal/Assets__0.0.0.0
+  lastAutoUpdateSignature: 2019.4.19f1__S:/Documentos/No Me Veas/Fisica y Simulacion/Segundo
+    Parcial/Proyecto/Proyecto-Parcial2/Proyecto-SegundoParcal/Assets__0.0.0.0
   useLegacyNetworking: 0
