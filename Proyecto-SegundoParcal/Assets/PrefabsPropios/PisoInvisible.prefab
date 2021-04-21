@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2307542506832743237
+--- !u!1 &5539763744924879557
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,31 +8,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6200779743178813005}
+  - component: {fileID: 4707114430537793263}
   m_Layer: 0
-  m_Name: PisoMulticolor
+  m_Name: PisoInvisible
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6200779743178813005
+--- !u!4 &4707114430537793263
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2307542506832743237}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.3969994, y: -4.226097, z: -2.828843}
+  m_GameObject: {fileID: 5539763744924879557}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 24.72, y: 0, z: -14.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 9015169654742824673}
-  - {fileID: 5705796276162817578}
+  - {fileID: 8806323600741201230}
+  - {fileID: 8441233197398486199}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5964820622338526910
+--- !u!1 &5904717651855782951
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40,11 +40,11 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 9015169654742824673}
-  - component: {fileID: 3790431059230663844}
-  - component: {fileID: 2307723540807507978}
-  - component: {fileID: 565370121617847674}
-  - component: {fileID: 4920126645561345711}
+  - component: {fileID: 8441233197398486199}
+  - component: {fileID: 4851598690530587271}
+  - component: {fileID: 834675500854313064}
+  - component: {fileID: 8309630423095670907}
+  - component: {fileID: 5137539551763438922}
   m_Layer: 0
   m_Name: PisoChico (1)
   m_TagString: Untagged
@@ -52,35 +52,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &9015169654742824673
+--- !u!4 &8441233197398486199
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5964820622338526910}
+  m_GameObject: {fileID: 5904717651855782951}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.624, y: 0.041073, z: -0.624}
   m_LocalScale: {x: 0.25, y: 1, z: 0.25}
   m_Children: []
-  m_Father: {fileID: 6200779743178813005}
-  m_RootOrder: 0
+  m_Father: {fileID: 4707114430537793263}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &3790431059230663844
+--- !u!33 &4851598690530587271
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5964820622338526910}
+  m_GameObject: {fileID: 5904717651855782951}
   m_Mesh: {fileID: 4300000, guid: 1edc04d18e562674fbd6d001fc0a636a, type: 3}
---- !u!23 &2307723540807507978
+--- !u!23 &834675500854313064
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5964820622338526910}
+  m_GameObject: {fileID: 5904717651855782951}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -92,7 +92,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9603f734b16a04040beeaea2c182f1d6, type: 2}
+  - {fileID: 2100000, guid: 1a7c60778899549b1a3efecbd56c646e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -113,26 +113,26 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &565370121617847674
+--- !u!65 &8309630423095670907
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5964820622338526910}
+  m_GameObject: {fileID: 5904717651855782951}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 5, y: 0.101415, z: 5}
   m_Center: {x: -2.4996805, y: 0.06, z: 2.499999}
---- !u!114 &4920126645561345711
+--- !u!114 &5137539551763438922
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5964820622338526910}
+  m_GameObject: {fileID: 5904717651855782951}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
@@ -186,27 +186,19 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.GetOwner
         - HutongGames.PlayMaker.Actions.CollisionEvent
         - HutongGames.PlayMaker.Actions.CollisionEvent
         - HutongGames.PlayMaker.Actions.CollisionEvent
         customNames:
-        - 
         - Collision Event
         - 
         - 
-        actionEnabled: 01010101
-        actionIsOpen: 01010101
-        actionStartIndex: 0000000001000000070000000d000000
-        actionHashCodes: 5c004505beb33100beb33100beb33100
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 00000000060000000c000000
+        actionHashCodes: beb33100beb33100beb33100
         unityObjectParams: []
         fsmGameObjectParams:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
         - useVariable: 1
           name: 
           tooltip: 
@@ -314,9 +306,8 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1300000014000000070000001200000017000000130000000f00000014000000070000001200000017000000130000000f00000014000000070000001200000017000000130000000f000000
+        paramDataType: 14000000070000001200000017000000130000000f00000014000000070000001200000017000000130000000f00000014000000070000001200000017000000130000000f000000
         paramName:
-        - storeGameObject
         - gameObject
         - collision
         - collideTag
@@ -335,8 +326,8 @@ MonoBehaviour:
         - sendEvent
         - storeCollider
         - storeForce
-        paramDataPos: 00000000000000000000000000000000000000000100000000000000010000000400000001000000010000000200000001000000020000000800000002000000020000000300000002000000
-        paramByteDataSize: 00000000000000000400000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000400000000000000000000000000000000000000
+        paramDataPos: 000000000000000000000000000000000000000000000000010000000400000001000000010000000100000001000000020000000800000002000000020000000200000002000000
+        paramByteDataSize: 000000000400000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000400000000000000000000000000000000000000
     - name: Entro en Colision
       description: 
       colorIndex: 0
@@ -446,7 +437,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           typeName: 
-          value: {fileID: 2100000, guid: 1325ec6a0ac0d4a24943098f21f67cda, type: 2}
+          value: {fileID: 2100000, guid: bde73cf9f3d8ea5408973791939cfa7a, type: 2}
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
@@ -590,7 +581,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           typeName: 
-          value: {fileID: 2100000, guid: 1325ec6a0ac0d4a24943098f21f67cda, type: 2}
+          value: {fileID: 2100000, guid: bde73cf9f3d8ea5408973791939cfa7a, type: 2}
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
@@ -639,8 +630,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 291
-        y: 211.00781
+        x: 287
+        y: 224.02344
         width: 125
         height: 32
       isBreakpoint: 0
@@ -648,8 +639,8 @@ MonoBehaviour:
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
+          name: SalirColision
+          isSystemEvent: 0
           isGlobal: 0
         toState: Reposo
         linkStyle: 0
@@ -657,44 +648,105 @@ MonoBehaviour:
         linkTarget: 0
         colorIndex: 0
       actionData:
-        actionNames: []
-        customNames: []
-        actionEnabled: 
-        actionIsOpen: 
-        actionStartIndex: 
-        actionHashCodes: 
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SetMaterial
+        - HutongGames.PlayMaker.Actions.CollisionEvent
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000003000000
+        actionHashCodes: 11ab5a02beb33100
         unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
         fsmEventTargetParams: []
         fsmPropertyParams: []
         layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        fsmObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: 
+          value: {fileID: 2100000, guid: 1a7c60778899549b1a3efecbd56c646e, type: 2}
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
+        fsmFloatParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmIntParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams: []
-        byteData: 
+        stringParams:
+        - SalirColision
+        byteData: 02000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 
-        paramName: []
-        paramDataPos: 
-        paramByteDataSize: 
+        paramDataType: 14000000100000002000000014000000070000001200000017000000130000000f000000
+        paramName:
+        - gameObject
+        - materialIndex
+        - material
+        - gameObject
+        - collision
+        - collideTag
+        - sendEvent
+        - storeCollider
+        - storeForce
+        paramDataPos: 000000000000000000000000010000000000000000000000000000000000000000000000
+        paramByteDataSize: 000000000000000000000000000000000400000000000000000000000000000000000000
     events:
     - name: EntarColision
       isSystemEvent: 0
@@ -781,78 +833,78 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 0
---- !u!1001 &2381565405732327863
+--- !u!1001 &8772407543147900099
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 6200779743178813005}
+    m_TransformParent: {fileID: 4707114430537793263}
     m_Modifications:
-    - target: {fileID: 306840966814255109, guid: 34e2c61bf0230984d9d24d20bab9cac5,
-        type: 3}
-      propertyPath: m_Name
-      value: UbicadorPalMulticolor
-      objectReference: {fileID: 0}
-    - target: {fileID: 7935916925969153949, guid: 34e2c61bf0230984d9d24d20bab9cac5,
+    - target: {fileID: 255441318146791821, guid: eaffb3bbaee684040ae2de1bab217cc5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7935916925969153949, guid: 34e2c61bf0230984d9d24d20bab9cac5,
+    - target: {fileID: 255441318146791821, guid: eaffb3bbaee684040ae2de1bab217cc5,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7935916925969153949, guid: 34e2c61bf0230984d9d24d20bab9cac5,
+    - target: {fileID: 255441318146791821, guid: eaffb3bbaee684040ae2de1bab217cc5,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 2.5
       objectReference: {fileID: 0}
-    - target: {fileID: 7935916925969153949, guid: 34e2c61bf0230984d9d24d20bab9cac5,
+    - target: {fileID: 255441318146791821, guid: eaffb3bbaee684040ae2de1bab217cc5,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7935916925969153949, guid: 34e2c61bf0230984d9d24d20bab9cac5,
+    - target: {fileID: 255441318146791821, guid: eaffb3bbaee684040ae2de1bab217cc5,
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7935916925969153949, guid: 34e2c61bf0230984d9d24d20bab9cac5,
+    - target: {fileID: 255441318146791821, guid: eaffb3bbaee684040ae2de1bab217cc5,
         type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7935916925969153949, guid: 34e2c61bf0230984d9d24d20bab9cac5,
+    - target: {fileID: 255441318146791821, guid: eaffb3bbaee684040ae2de1bab217cc5,
         type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7935916925969153949, guid: 34e2c61bf0230984d9d24d20bab9cac5,
+    - target: {fileID: 255441318146791821, guid: eaffb3bbaee684040ae2de1bab217cc5,
         type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7935916925969153949, guid: 34e2c61bf0230984d9d24d20bab9cac5,
+    - target: {fileID: 255441318146791821, guid: eaffb3bbaee684040ae2de1bab217cc5,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7935916925969153949, guid: 34e2c61bf0230984d9d24d20bab9cac5,
+    - target: {fileID: 255441318146791821, guid: eaffb3bbaee684040ae2de1bab217cc5,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7935916925969153949, guid: 34e2c61bf0230984d9d24d20bab9cac5,
+    - target: {fileID: 255441318146791821, guid: eaffb3bbaee684040ae2de1bab217cc5,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7632359850449448469, guid: eaffb3bbaee684040ae2de1bab217cc5,
+        type: 3}
+      propertyPath: m_Name
+      value: UbicadorInvisible
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 34e2c61bf0230984d9d24d20bab9cac5, type: 3}
---- !u!4 &5705796276162817578 stripped
+  m_SourcePrefab: {fileID: 100100000, guid: eaffb3bbaee684040ae2de1bab217cc5, type: 3}
+--- !u!4 &8806323600741201230 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 7935916925969153949, guid: 34e2c61bf0230984d9d24d20bab9cac5,
+  m_CorrespondingSourceObject: {fileID: 255441318146791821, guid: eaffb3bbaee684040ae2de1bab217cc5,
     type: 3}
-  m_PrefabInstance: {fileID: 2381565405732327863}
+  m_PrefabInstance: {fileID: 8772407543147900099}
   m_PrefabAsset: {fileID: 0}
