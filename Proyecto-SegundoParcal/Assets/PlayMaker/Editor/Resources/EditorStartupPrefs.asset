@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   welcomeScreenVersion: '1.9.1 '
   playmakerVersion: 
-  showWelcomeScreen: 0
+  showWelcomeScreen: 1
   showUpgradeGuide: 0
   lastAutoUpdateSignature: 2019.4.19f1__C:/Users/jesus/Documents/6 Semestre/Fisica
     y simulacion/Proyecto-Parcial2/Proyecto-SegundoParcal/Assets__0.0.0.0
