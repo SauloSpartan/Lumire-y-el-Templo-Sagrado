@@ -45,3 +45,4 @@ MonoBehaviour:
     variableCategoryIDs: 0000000000000000
   events:
   - DESTRUIR
+  - Bomba
