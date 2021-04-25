@@ -19,12 +19,14 @@ public class ManipuladorVida : MonoBehaviour
 
     private void OnTriggerStay (Collider other)
     {
-        currentDamageTime += Time.deltaTime;
-        if (currentDamageTime > damgeTime)
-        {
-            playerVida.vida += cantidad;
-            currentDamageTime = 0.0f;
-        }
+         currentDamageTime += Time.deltaTime;
+         if (currentDamageTime > damgeTime)
+         {
+              playerVida.vida += cantidad;
+              currentDamageTime = 0.0f;
+         }
+      
+        
     }
 
     // Update is called once per frame
