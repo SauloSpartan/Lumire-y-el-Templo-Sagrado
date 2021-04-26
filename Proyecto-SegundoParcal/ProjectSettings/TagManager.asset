@@ -7,6 +7,7 @@ TagManager:
   - Player2
   - FxTemporaire
   - PlacasPresion
+  - Terrain
   layers:
   - Default
   - TransparentFX
