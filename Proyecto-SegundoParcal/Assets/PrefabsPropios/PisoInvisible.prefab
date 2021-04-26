@@ -339,7 +339,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 
+          value: Player2
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -564,7 +564,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 
+          value: Player2
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
