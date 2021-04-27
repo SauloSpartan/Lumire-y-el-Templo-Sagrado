@@ -14,7 +14,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Escenas/Mapa.unity
     guid: 593cd9d89b266fd47956add4936dac7b
-  - enabled: 1
-    path: Assets/Escenas/Pruebas.unity
-    guid: af9a4cb92e9f73243b46e64789af715a
   m_configObjects: {}
