@@ -46,6 +46,8 @@ GameObject:
   - component: {fileID: 8309630423095670907}
   - component: {fileID: 5137539551763438922}
   - component: {fileID: 7827600891305868876}
+  - component: {fileID: 6419390886096089238}
+  - component: {fileID: 8321441365863740269}
   m_Layer: 0
   m_Name: PisoChico (1)
   m_TagString: Untagged
@@ -644,7 +646,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -661,8 +663,8 @@ MonoBehaviour:
     handleCollisionEnter2D: 0
     handleCollisionExit2D: 0
     handleCollisionStay2D: 0
-    handleTriggerEnter: 0
-    handleTriggerExit: 0
+    handleTriggerEnter: 1
+    handleTriggerExit: 1
     handleTriggerStay: 0
     handleCollisionEnter: 0
     handleCollisionExit: 0
@@ -680,7 +682,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!65 &7827600891305868876
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -694,6 +696,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.5, y: 0.101415, z: 4.5}
   m_Center: {x: -2.4996805, y: 0.44, z: 2.499999}
+--- !u!114 &6419390886096089238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5904717651855782951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 82786459, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 5137539551763438922}
+--- !u!114 &8321441365863740269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5904717651855782951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1144467388, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 5137539551763438922}
 --- !u!1001 &8772407543147900099
 PrefabInstance:
   m_ObjectHideFlags: 0
