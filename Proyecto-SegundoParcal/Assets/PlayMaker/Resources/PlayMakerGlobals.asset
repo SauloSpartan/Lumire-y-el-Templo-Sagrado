@@ -53,3 +53,6 @@ MonoBehaviour:
   - DESTRUIR
   - Bomba
   - Revivir
+  - GRAVEDAD_NORMAL
+  - GRAVEDAD_INVERTIDA
+  - GRAVEDAD_SUSPENDIDA
